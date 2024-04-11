@@ -1,0 +1,29 @@
+
+.container-info{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  background-image: url('./pattern.jpg');
+}
+.left{
+
+}
+.left:hover{
+
+}
+.right{
+transform: scaleX(-1);
+}
+.right:hover{
+
+}
+
+/* No funciona, el gif no es una animacion, probar otra cosa. */
+@keyframes speedUp {
+    from {
+      animation-timing-function: steps(10); /* Cambia el número según sea necesario para ajustar la velocidad */
+    }
+    to {
+      animation-timing-function: steps(5); /* Cambia el número según sea necesario para ajustar la velocidad */
+    }
+  }

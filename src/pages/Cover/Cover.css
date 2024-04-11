@@ -1,0 +1,21 @@
+.cover {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .cover img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .cover h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .cover p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
